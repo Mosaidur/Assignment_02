@@ -174,4 +174,38 @@
 
 /*-------------- Change Your Habits -----------------------*/
 
+.habit-container{
+    text-align: center;
+}
 
+.cart{
+    display: flex;
+    gap: 100px;
+    margin-top:60px ;
+    /* align-items: center; */
+}
+.cart-item img{
+    border: 4px solid #1e1e1e;
+    border-radius: 50%;
+}
+.cart-item h3{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.section-width{
+    max-width: 80%;
+    margin: 100px auto;
+}
+.section-title{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.section-description{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 50%);
+    margin-bottom: 34px;
+    line-height: 24px;
+}
