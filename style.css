@@ -318,3 +318,65 @@
     background-color: rgb(0, 71, 255, 30%);
     flex-direction: column-reverse;
 }
+/*-------------- BMI Section -----------------------*/
+.bmi-section-content{
+    margin: auto auto;
+    max-width: 670px;
+    text-align: left;
+}
+.bmi-container{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-around;
+}
+.bmi-chart{
+    max-width: 310px;
+}
+.bmi-chart h3{
+    margin: 50px 0px;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 130px;
+}
+td, th{
+    border: 2px solid rgba(255, 255, 255, 10%);
+    padding: 10px 20px;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 50%);
+    font-size: 0.825rem;
+}
+.bmi-form{
+    max-width: 575px;
+}
+.bmi-form h3{
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.Calculater-form{
+    margin-bottom: 35px;
+    gap: 12px;
+    display: grid;
+}
+.input-field{
+    display: flex;
+    gap: 12px;
+}
+.input-field input,.input-field select{
+    width: 50%;
+    flex: 1;
+}
+input, select{
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 60%);
+    background-color: rgba(255, 255, 255, 10%);
+}
