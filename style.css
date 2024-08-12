@@ -220,3 +220,20 @@
     gap: 165px;
     padding: 40px 50px;
 }
+
+.run-content{
+    max-width: 440px;
+}
+.run-image{
+    /* padding: 30px 32px 30px 0px; */
+    width: 366px;
+}
+.run-image img{
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 80%;
+    
+}
+
+/*-------------- Change Your Habits -----------------------*/
+
