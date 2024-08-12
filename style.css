@@ -235,5 +235,86 @@
     
 }
 
-/*-------------- Change Your Habits -----------------------*/
-
+/*-------------- exercises section -----------------------*/
+.text-section{
+    width: 55%;
+}
+.image-section{
+    width: 100%;
+}
+.first-row-image, .second-row-image{
+    display: flex;
+    height: 200px;
+}
+.image1 span, .image2 span, .image3 span, .image4 span, .image5 span, .image6 span{
+    width: calc(100% - (27px + 27px));
+    height: calc(100% - (27px + 27px));
+    font-size: 0.825rem;
+    padding: 27px;
+    display: flex;
+}
+.image1{
+    background-image: url(../Assets/exercise1.jpg),linear-gradient(to top, #000000, #232323, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+}
+.image1 span{
+    background-color: rgba(6, 255, 210, 50%);
+    flex-direction: column-reverse;
+}
+.image2 {
+    background-image: url(../Assets/exercise2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+.image2 span{
+    background-color: rgb(255, 0, 0, 30%);
+}
+.image3{
+    background-image: url(../Assets/exercise3.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+}
+.image3 span{
+    background-color: rgb(0, 0, 0, 50%);
+    flex-direction: column-reverse;
+}
+.image4{
+    background-image: url(../Assets/exercise4.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+}
+.image4 span{
+    background-color: rgb(0, 0, 0, 50%);
+    flex-direction: row-reverse;
+}
+.image5{
+    background-image: url(../Assets/exercise5.jpg);
+    background-repeat: no-repeat;
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+}
+.image5 span{
+    background-color: rgb(66, 255, 0, 30%);
+    flex-direction: column-reverse;
+}
+.image6{
+    background-image: url(../Assets/exercise6.jpg);
+    background-repeat: no-repeat;
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+}
+.image6 span{
+    background-color: rgb(0, 71, 255, 30%);
+    flex-direction: column-reverse;
+}
