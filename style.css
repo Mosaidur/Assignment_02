@@ -380,3 +380,39 @@ input, select{
     color: rgba(255, 255, 255, 60%);
     background-color: rgba(255, 255, 255, 10%);
 }
+/*-------------- team Section -----------------------*/
+.our-team{
+    text-align: center;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 18px;
+}
+.team-cart{
+    position: relative;
+    text-align: start;
+}
+.team-cart img{
+    border-radius:18px ;
+    width: 100%;
+    height: 300px;
+    filter: brightness(90%);
+}
+.team-cart h4{
+    font-weight: 900;
+    font-size: 1.25rem;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.team-cart p{
+    font-size: 0.825rem;
+    color: rgba(255, 255, 255, 50%);
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
