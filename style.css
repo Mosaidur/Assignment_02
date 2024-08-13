@@ -416,3 +416,46 @@ input, select{
     bottom: 5%;
     left: 5%;
 }
+/*-------------- Footer Section -----------------------*/
+.footer{
+    background-color: rgba(255, 255, 255, 10%);
+}
+.footer-content{
+    align-items: center;
+    gap: 150px;
+    padding: 65px ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-content ul{
+    list-style: none;
+}
+.footer-content a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 50%);
+}
+.footer-content li{
+    margin-top: 20px;
+}
+.footer-content .column-1{
+    max-width: 450px;
+}
+.column1 h1{
+    font-weight: 800;
+    font-size: 4.40rem;
+}
+.column1 p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.footer .copy-right{
+    padding: 0px 150px ;
+}
+.copy-right p{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 25px 0px;
+    color: rgba(255, 255, 255, 50%);
+}
+
