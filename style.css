@@ -438,7 +438,7 @@ input, select{
 .footer-content li{
     margin-top: 20px;
 }
-.footer-content .column-1{
+.footer-content .column1{
     max-width: 450px;
 }
 .column1 h1{
@@ -634,122 +634,189 @@ input, select{
 
 }
 
-/* tablet version */
-@media screen and (min-width: 577px) and (max-width: 1024px) {
-    .hide{
-        display: none;
+/*----------------- tablet version ------------------------*/
+@media (min-width: 600px) and (max-width: 768px) {
+    .nav {
+        margin: 20px 50px;
     }
-    .miama-font{
-        font-size: 6rem; 
+    
+    .nav ul {
+        gap: 30px;
+        padding: 8px 16px 8px 2px;
     }
-    .banner-container{
+    
+    .nav-home-btn {
+        padding: 6px 16px;
+    }
+
+    .banner-container {
+        margin: 0px 50px;
+        gap: 50px;
         flex-direction: column;
-        margin: 0px 40px; 
+        align-items: center;
     }
-    .section-width{
-        max-width: 80%;
-        margin: 80px auto; 
+    
+    .banner-title {
+        font-size: 3.5rem;
+        line-height: 60px;
     }
-    .banner-title{
-        max-width: 350px; 
+    
+    .banner-description {
+        font-size: 0.9rem;
+        margin: 20px 0px;
+        line-height: 28px;
+    }
+    
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .free-workout {
+        right: -10%;
+        top: 20%;
+        padding: 10px 18px;
+    }
+    
+    .free-workout h2 {
+        font-size: 2rem;
+    }
+    
+    .free-workout p {
+        font-size: 0.75rem;
+    }
+    
+    .video-tutorial {
+        bottom: 5%;
+        left: -20%;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+    
+    .video-tutorial h3 {
+        font-size: 1.3rem;
+    }
+    
+    .video-tutorial p {
+        font-size: 0.9rem;
+    }
+    
+    .cart {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    
+    .cart-item h3 {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    
+    .section-width {
+        max-width: 90%;
+        margin: 50px auto;
+    }
+    
+    .section-title {
         font-size: 2.5rem;
-        line-height: 45px;
     }
-    .nav{
-        margin: 60px 40px; 
-    }
-    .nav ul{
-        display: none;
-    }
-    .free-workout{
-        top: 10%;
-        right: 0%;
-    }
-    .btn-primary, .btn-secondary{
-        font-weight: 500;
-        padding: 14px 18px; 
-    }
-    .banner-btn{
-        text-align: center;
-        justify-content: center;
-    }
-    .video-tutorial{
-        bottom: 40%;
-        left: 2%;
-    }
-    .cart{
+
+    .run-container {
         flex-direction: column;
-        gap: 10px; 
-        padding: 0px 80px; 
-    }
-    .section-title{
-        font-size: 2.25rem; 
-    }
-    .run-image{
-        width: 320px; 
-    }
-    .run-container{
-        flex-direction: column;
-        gap: 25px; 
-        padding: 30px;
-        margin: 15px;
-    }
-    .text-section{
-        width: 100%;
-    }
-    .first-row-image, .second-row-image{
-        height: 180px; 
-    }
-    .image1{
-        width: 60%; 
-    }
-    .image2{
-        width: 60%; 
-        background-position-x: 55%;
-        background-position-y: 25%;
-    }
-    .image3, .image6{
-        display: none;
-    }
-    .image4{
-        width: 50%;
-    }
-    .image5{
-        width: 50%;
-    }
-    .training-section{
-        margin: 30px; 
-    }
-    .team-container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        background-color: #222222;
-        padding: 20px;
-        border-radius: 18px;
+        padding: 30px 20px;
     }
-    .team-cart img{
-        border-radius:18px ;
+    
+    .run-image {
         width: 100%;
-        height: 272px;
-        filter: brightness(90%);
-        object-fit: fill;
     }
-    .bmi-section-content{
-        padding: 30px; 
+    
+    .run-image img {
+        max-width: 100%;
+        height: auto;
     }
-    table{
-        margin-bottom: 30px;
+    
+    .text-section {
+        width: 100%;
     }
-    .bmi-chart h3{
-        margin: 25px 0px;
+
+    .image-section {
+        width: 100%;
     }
-    .input-field{
-        display: flex;
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        width: 100%;
     }
-    .bmi-container{
+    
+    .bmi-container {
         flex-direction: column;
+        gap: 20px;
         padding: 30px;
     }
-   
+    
+    .bmi-chart, .bmi-form {
+        width: 100%;
+    }
+    
+    .bmi-form h3 {
+        font-size: 1.5rem;
+    }
+    
+    .Calculater-form {
+        gap: 10px;
+    }
+    
+    .input-field input, .input-field select {
+        width: 100%;
+    }
+
+    .team-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .team-cart {
+        height: auto;
+    }
+    
+    .team-cart img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 40px;
+    }
+
+    .footer-content .column1 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-content .column-2 {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    /* .footer-content .column-2 ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    } */
+
+    .copy-right {
+        margin: 20px 50px 0;
+    }
+
+    
 }
